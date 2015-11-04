@@ -1,4 +1,5 @@
-Test Words
-Testaroonie
-Rest in Test
-End of Dialogue
+Welcome to Project PhysX!
+This is a test level to show off the concept of the game.
+In PhysX you must shoot the cannon with Space and knock down the structure in front of you.
+You can change the physics of the object by accessing the Change Physics menu.
+In the future we will have more stages, blocks, and other features like guided shots.

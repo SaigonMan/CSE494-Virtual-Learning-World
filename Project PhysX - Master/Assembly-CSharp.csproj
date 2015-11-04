@@ -53,19 +53,14 @@
      <Compile Include="Assets\Scripts\UI\ChangePhysics.cs" />
      <Compile Include="Assets\Scripts\UI\GameScreenController.cs" />
      <Compile Include="Assets\Scripts\UI\TextBoxManager.cs" />
+     <Compile Include="Assets\Scripts\WinCondition.cs" />
      <Compile Include="Assets\Scripts\testPause.cs" />
      <None Include="Assets\Dialogue\testLevel.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

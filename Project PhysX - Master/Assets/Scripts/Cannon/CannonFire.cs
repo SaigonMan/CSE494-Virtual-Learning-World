@@ -6,15 +6,19 @@ public class CannonFire : MonoBehaviour {
 	public GameObject cannonBarrel;
 	public ParticleSystem fireParticles;
     public GameObject gamePanel;
+    public GameObject controller;
 	public float force;
     public int size;
+    bool canFire = false;
 
 	void Update()
 	{
-		if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && canFire)
 		{
 			Fire ();
 		}
+        else if(controller.GetComponent<TextBoxManager>().shouldDisplay == false)
+            canFire = true;
 
         force = float.Parse(gamePanel.GetComponent<ChangePhysics>().force);
         size = gamePanel.GetComponent<GameScreenController>().size;

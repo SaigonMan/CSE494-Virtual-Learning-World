@@ -4,6 +4,7 @@ using System.Collections;
 
 public class TextBoxManager : MonoBehaviour {
 
+    public GameObject TopUI;
     public GameObject textBox;
     public TextAsset textFile;
 
@@ -12,9 +13,10 @@ public class TextBoxManager : MonoBehaviour {
 
     public int currentLine;
     public int endLine;
-    bool shouldDisplay = true;
+    public bool shouldDisplay = true;
 	// Use this for initialization
 	void Start () {
+        TopUI.SetActive(false);
 	    if(textFile != null)
         {
             lines = textFile.text.Split('\n');
@@ -42,6 +44,7 @@ public class TextBoxManager : MonoBehaviour {
                 textBox.SetActive(false);
                 displayText.text = null;
                 shouldDisplay = false;
+                TopUI.SetActive(true);
             }
         }
 	}
