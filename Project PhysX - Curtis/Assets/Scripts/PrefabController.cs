@@ -9,6 +9,7 @@ public class PrefabController : MonoBehaviour {
 
 	//Prefab Types
 	public GameObject cannonBall;
+    public GameObject explosion;
 
 	void Awake(){
 		//Make singleton

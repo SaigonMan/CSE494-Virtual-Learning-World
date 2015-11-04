@@ -24,6 +24,7 @@ public class CannonFire : MonoBehaviour {
 				cannonBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
 				cannonBall.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 			}
+            cannonBall.GetComponent<Rigidbody>().transform.localScale = new Vector3(size, size, size);
 			Fire ();
 		}
 
@@ -34,9 +35,7 @@ public class CannonFire : MonoBehaviour {
 	void Fire()
 	{
 		cannonBall.GetComponent<Rigidbody>().AddForce(cannonBarrel.transform.forward * force);
-		GameObject newBall = (GameObject)Instantiate(PrefabController.prefabController.cannonBall,cannonBarrel.transform.position,Quaternion.identity);
-        newBall.GetComponent<Rigidbody>().transform.localScale = new Vector3(size,size,size);
-		newBall.GetComponent<Rigidbody>().AddForce(cannonBarrel.transform.forward * force);
+        
 
 		//Play particle burst
 		fireParticles.Play();
