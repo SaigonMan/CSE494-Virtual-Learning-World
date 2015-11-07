@@ -22,6 +22,7 @@ public class CannonFire : MonoBehaviour {
 
         force = float.Parse(gamePanel.GetComponent<ChangePhysics>().force);
         size = gamePanel.GetComponent<GameScreenController>().size;
+
 	}
 
 	void Fire()
@@ -33,4 +34,5 @@ public class CannonFire : MonoBehaviour {
 		//Play particle burst
 		fireParticles.Play();
 	}
+
 }

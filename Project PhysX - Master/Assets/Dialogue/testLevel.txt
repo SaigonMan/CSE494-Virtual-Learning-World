@@ -1,5 +1,5 @@
-Welcome to Project PhysX!
-This is a test level to show off the concept of the game.
+Welcome to Project PhysX! I'm Winston the Owl and I'll be guiding you through this world.
+This is a test level to show off the concept of the game. Hopefully you find it fun!
 In PhysX you must shoot the cannon with Space and knock down the structure in front of you.
-You can change the physics of the object by accessing the Change Physics menu.
-In the future we will have more stages, blocks, and other features like guided shots.
+You can change the physics of the object like its size and force by accessing the Change Physics menu.
+In the future we will have more stages, blocks, and other features like guided shots. But for now this is what we have to present. Enjoy!

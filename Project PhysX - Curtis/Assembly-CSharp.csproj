@@ -45,9 +45,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Blocks\BoomExplosion.cs" />
-     <Compile Include="Assets\Scripts\Blocks\Explosion.cs" />
-     <Compile Include="Assets\Scripts\Blocks\VoidGravityField.cs" />
+     <Compile Include="Assets\Scripts\Cannon\Blocks\BoomExplosion.cs" />
+     <Compile Include="Assets\Scripts\Cannon\Blocks\Explosion.cs" />
+     <Compile Include="Assets\Scripts\Cannon\Blocks\VoidGravityField.cs" />
      <Compile Include="Assets\Scripts\Cannon\CannonFire.cs" />
      <Compile Include="Assets\Scripts\Cannon\CannonMotion.cs" />
      <Compile Include="Assets\Scripts\Cannon\CannonMotionStopper.cs" />

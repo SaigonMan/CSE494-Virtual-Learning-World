@@ -45,13 +45,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Blocks\BoomExplosion.cs" />
+     <Compile Include="Assets\Scripts\Blocks\Explosion.cs" />
      <Compile Include="Assets\Scripts\Blocks\VoidGravityField.cs" />
      <Compile Include="Assets\Scripts\Cannon\CannonFire.cs" />
      <Compile Include="Assets\Scripts\Cannon\CannonMotion.cs" />
      <Compile Include="Assets\Scripts\Cannon\CannonMotionStopper.cs" />
+     <Compile Include="Assets\Scripts\Cannon\PathPrediction.cs" />
      <Compile Include="Assets\Scripts\PrefabController.cs" />
      <Compile Include="Assets\Scripts\UI\ChangePhysics.cs" />
      <Compile Include="Assets\Scripts\UI\GameScreenController.cs" />
+     <Compile Include="Assets\Scripts\UI\LevelSelect.cs" />
      <Compile Include="Assets\Scripts\UI\TextBoxManager.cs" />
      <Compile Include="Assets\Scripts\WinCondition.cs" />
      <Compile Include="Assets\Scripts\testPause.cs" />
